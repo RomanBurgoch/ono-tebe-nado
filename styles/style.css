@@ -1,5 +1,5 @@
 .header {
-  padding: 92px 24px 96px;
+  padding: 92px 24px 99px;
   display: grid;
   grid-template-columns: 1fr 130px 1fr;
   align-items: center;
@@ -8,7 +8,7 @@
 
 .header__menu {
   justify-self: start;
-  padding-top: 4px;
+  padding-top: 6px;
 }
 
 .header__links-list {
@@ -42,12 +42,11 @@
   text-decoration: none;
 }
 
-.header__logo-image {
-  display: block;
-  background-image: url(/images/logo-black.svg);
-  width: 136px;
-  height: 105px;
-  background-repeat: no-repeat;
+.header__logo a {
+    display: block;
+    width: 135px;
+    height: 99px;
+    margin-left: -2px;
 }
 
 .address {
@@ -63,7 +62,7 @@
 
 .header__address {
   padding-right: 40px;
-  padding-top: 4px;
+  padding-top: 5px;
   justify-self: end;
 }
 
