@@ -43,10 +43,10 @@
 }
 
 .header__logo a {
-    display: block;
-    width: 135px;
-    height: 99px;
-    margin-left: -2px;
+  display: block;
+  width: 135px;
+  height: 99px;
+  margin-left: -2px;
 }
 
 .address {
@@ -323,6 +323,15 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.1px;
+  word-spacing: -0.4px;
+}
+
+.about__text p:first-child {
+    width: 680px;
+  }
+
+.about__text p:nth-child(2) {
+  width: 696px;
 }
 
 .footer {
